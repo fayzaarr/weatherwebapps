@@ -1,5 +1,27 @@
-# Vue 3 + TypeScript + Vite
+# 🌤️ Vue Weather App
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Aplikasi cuaca sederhana dan responsif berbasis **Vue 3 + TypeScript + Pinia**, menggunakan **OpenWeatherMap API**.  
+Cari kota, lihat cuaca hari ini, dan cek prakiraan 5 hari ke depan — semuanya dalam **antarmuka berbahasa Indonesia**!
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+---
+
+## 🔧 Fitur
+
+- 🔍 Pencarian kota dengan daftar favorit
+- 📍 Cuaca saat ini (suhu, kelembapan, angin, dll)
+- 📅 Prakiraan 5 hari (ditampilkan pada pukul 12 siang)
+- 📱 Responsif dan ramah seluler
+- 💾 Favorit disimpan ke `localStorage`
+- 🌙 Ikon cuaca dinamis (siang/malam)
+- 🇮🇩 **Bahasa Indonesia sebagai bahasa utama aplikasi**
+
+---
+
+## 🔗 Link
+
+https://weatherwebapps.vercel.app/
+
+---
+
+## 🙋‍♀️ Dibuat oleh
+Rifasya Ayu Nurfayza — dengan Vue dan secangkir kopi ☕
