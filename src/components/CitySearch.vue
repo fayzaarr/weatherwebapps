@@ -1,5 +1,5 @@
 <template>
-  <form @submit.prevent="submit" class="flex gap-2 w-[600px] mx-auto">
+  <form @submit.prevent="submit" class="flex flex-col sm:flex-row gap-2 w-full max-w-[600px] mx-auto">
     <input
       v-model="city"
       type="text"
@@ -11,6 +11,7 @@
     </button>
   </form>
 </template>
+
 
 <script setup lang="ts">
 import { ref } from 'vue'
